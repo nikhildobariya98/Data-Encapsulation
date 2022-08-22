@@ -27,7 +27,7 @@ class Customers{
     void getcust(){
 cout << "customers  ID: " << id << endl << "customers  name: " << cust_name << endl <<" customers age " << age <<
  endl << "customers telecome_brand_name"<< telecome_brand_name << endl << "customers  mobile_number: " 
-	<< mobile_number << endl << "customers  city: " << city <<  "customers  simcard_validity: " << simcard_validity << endl;
+	<< mobile_number << endl << "customers  city: " << city <<endl<<  "customers  simcard_validity: " << simcard_validity << endl;
     }
 };
 
