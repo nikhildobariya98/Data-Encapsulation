@@ -26,8 +26,8 @@ class Students{
     
     void getstu(){
    	cout << "students  ID: " << id << endl << "students  name: " << stu_name << endl <<" studente age " << age <<
-		endl << "student course"<< course << endl << "students  email: " << email << endl << "students  city: " << city <<
-	 	  "students  college_name: " << college_name << endl;
+		endl << "student course"<< course << endl << "students  email: " << email << endl << "students  city: " << city <<endl
+	 	  <<"students  college_name: " << college_name << endl;
     }
 };
 
