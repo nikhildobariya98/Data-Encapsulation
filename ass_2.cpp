@@ -14,13 +14,13 @@ class Customers{
     	cin >> cust_name;
     	cout << "Enter customers age: ";
     	cin >> age;
-    	cout << "Enter customers  email: ";
+    	cout << "Enter customers  telecome_brand_name: ";
     	cin >> telecome_brand_name;
-    	cout << "Enter customers course: ";
+    	cout << "Enter customers mobile_number: ";
     	cin >> mobile_number;
     	cout << "Enter customers city: ";
     	cin >> city;
-    	cout << "Enter customers  college name: ";
+    	cout << "Enter customers  simcard_validity: ";
     	cin >> simcard_validity;
     }
 	
