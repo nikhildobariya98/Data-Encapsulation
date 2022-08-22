@@ -10,7 +10,7 @@ class Customers{
     void setcust(){
     	cout << "Enter customers ID: ";
     	cin >> id;
-    	cout << "Enter customers name: ";
+    	cout << "Enter customers cust_name: ";
     	cin >> cust_name;
     	cout << "Enter customers age: ";
     	cin >> age;
@@ -23,11 +23,11 @@ class Customers{
     	cout << "Enter customers  college name: ";
     	cin >> simcard_validity;
     }
-    
+	
     void getcust(){
 cout << "customers  ID: " << id << endl << "customers  name: " << cust_name << endl <<" customers age " << age <<
  endl << "customers telecome_brand_name"<< telecome_brand_name << endl << "customers  mobile_number: " 
-	<< mobile_number << endl << "customers  city: " << city <<endl<<  "customers  simcard_validity: " << simcard_validity << endl;
+	<< mobile_number << endl << "customers  city: " << city <<  "customers  simcard_validity: " << simcard_validity << endl;
     }
 };
 
@@ -51,13 +51,13 @@ int main(){
     	cout << endl;
     }
      for(int i = 0; i < 5; i++){
-    	cout << " Customers information " << i << ": " << endl;
+    	cout << " Customers information " << i+1 << ": " << endl;
     	cust[i].getcust();
     	cout << endl;
 	}
 	for(int i = 0; i < 5; i++){
-    	cout << " Customers information " << i << ": " << endl;
+    	cout << " Customers information " << i+1 << ": " << endl;
     	cust[i].getcust();
     	cout << endl;
-	}
+ }
 }
