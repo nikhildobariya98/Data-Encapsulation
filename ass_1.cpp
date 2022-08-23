@@ -45,19 +45,4 @@ int main(){
     	stu[i].getstu();
     	cout << endl;
     }
-     for(int i = 0; i < 5; i++){
-    	cout << "students  detail " << i+1 << ": " << endl;
-    	stu[i].getstu();
-    	cout << endl;
-    }
-     for(int i = 0; i < 5; i++){
-    	cout << "students  detail " << i << ": " << endl;
-    	stu[i].getstu();
-    	cout << endl;
-	}
-	for(int i = 0; i < 5; i++){
-    	cout << "students  detail " << i << ": " << endl;
-    	stu[i].getstu();
-    	cout << endl;
-	}
 }
