@@ -45,19 +45,5 @@ int main(){
     	cust[i].getcust();
     	cout << endl;
     }
-     for(int i = 0; i < 5; i++){
-    	cout << " Customers information " << i+1 << ": " << endl;
-    	cust[i].getcust();
-    	cout << endl;
-    }
-     for(int i = 0; i < 5; i++){
-    	cout << " Customers information " << i+1 << ": " << endl;
-    	cust[i].getcust();
-    	cout << endl;
-	}
-	for(int i = 0; i < 5; i++){
-    	cout << " Customers information " << i+1 << ": " << endl;
-    	cust[i].getcust();
-    	cout << endl;
- }
+     
 }
